@@ -11,9 +11,10 @@ def calculadora():
                 resultado = num1 + num2
             elif operador == "-":
                 resultado = num1 - num2
+            elif operador == "*":
+                resultado = num1 * num2
 
             print(f"Resultado: {resultado}")
-
         except ValueError:
             print("Entrada inválida! Digite números.")
 
